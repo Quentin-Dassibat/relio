@@ -51,6 +51,8 @@ This file organizes scripts by level:
 - level 3: used to spread data accross the destination grid cells following a routing constraint 
 - level 4 (results): set of scripts designed to compare the resampled model to the mapped observationnal data
 
+A particular mention needs to be made for the script <relio.py> which is not executable but stores the core functions for the rest of the scripts.
+
 Along these scripts, a set of parameters is invoked: 
 - modelRun: DISTurbed or PRISTine model run of the WBM
 - bandNumber: ranging from 1 to 12, corresponds to a month of the year
