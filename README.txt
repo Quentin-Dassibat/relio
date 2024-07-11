@@ -68,7 +68,7 @@ Along these scripts, a set of parameters is invoked:
 Since the scripts have been developed on the purpose of resampling a specific GCM (WBM raster data) to a specific AoI (the Sud-Loire region in France), they still do not make up a stand-alone software for resampling any GCM's outputs to any AoI. 
 
 We are under the working directory ~/ where we create a new directory, say ~/relio/
-Under ~/relio/ we found: 
+Under ~/relio/ we find: 
 
 2 folders are required to be built manually and uploaded with material before running scripts:
 ./HYDRO_inputs
