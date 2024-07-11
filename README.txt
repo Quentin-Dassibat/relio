@@ -32,7 +32,7 @@ The model is designed to take a low resolution (typically 1e3m x 1e3m) raster fi
 
 It is a statistical-physical mixture model that prevents running sophisticated LCMs to get higher resolution data but builds its satistical resampling technic upon a routed flow constraint (conversely to conventionnal GIS resempling algorithms, which are built upon the hypothesis of continuous domains).
 
-Across 20 scripts, it implements 3 main algorithms: 
+Across 19 scripts, it implements 3 main algorithms: 
 1. A derasterization algorithm used to breakdown the source grid cells
 2. A convolution algorithm used to spread hydrological data accross the destination grid cells
 3. A (optionnal) rasterization algorithm used to map hydrological point data to the destination grid cells 
@@ -43,7 +43,7 @@ Across 20 scripts, it implements 3 main algorithms:
 
 Whereas <relio> as a model could be used on any Global Climate Model's outputs featuring hydrological data, as a set of scripts it has been developped for the need of a specific GCM: the WBM model's outputs of flow discharges, as available in (Rockstrom 2023, SM). 
 
-The 20 scripts work in a sequential order, which can be found under the < scripts_sequences.html > file.
+The 19 scripts work in a sequential order, which can be found under the < scripts_sequences.html > file.
 This file organizes scripts by level: 
 - level 0: used to set a proper envelope that bounds the Area of Interest so as to minimize the number of river channels flowinf into the AoI
 - level 1: used to generate initial hydrographical material (optionnally retrieve point-like observationnal flow data from hubeau.france.fr's API)
@@ -82,4 +82,4 @@ Under ~/relio/ we found:
 ./tmp (to store temporary files)
 ./RESAMPLINGoutputs (to store outputs)
 
-20 scripts stored in ~/relio/ main folder
+19 scripts stored in ~/relio/ main folder
